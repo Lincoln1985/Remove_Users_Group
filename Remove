@@ -1,0 +1,2 @@
+###O parametro -Confirm:$False impede de abrir popup de confirmação de remoção dos usuários no grupo(s)###
+Remove-ADGroupMember -Identity "DA-SYSTEMS_DEV-GESTAO_SISTEMAS-RW" -Members npi002,LSCastro -Confirm:$False
